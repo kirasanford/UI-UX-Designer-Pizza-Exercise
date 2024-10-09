@@ -1,6 +1,15 @@
 # **UI/UX Designer Pizza Exercise**
 
+## **Important Links**
+
+1. Wireframes \- [link](https://github.com/kirasanford/UI-UX-Designer-Pizza-Exercise/tree/main/Images)
+2. Figma User flow for Pizza Maker \- [link](https://www.figma.com/board/icw1GdLVbjZvev12LpKOqu/Pizza-User-Flow?node-id=0-1&t=A8xXClvtcR5f8skt-1)
+3. Figma User flow for Pizza List \- [link](https://www.figma.com/board/Z4Y0h2oY8RjbItzSFQ45g2/Pizza-List-User-Flow?node-id=0-1&node-type=canvas&t=srI0rcYZUcsWsfGE-0)
+4. Figma prototype \- [link](https://www.figma.com/proto/vycGnYvVcTs4Xvfln80fFF/Pizza?node-id=73-242&node-type=frame&t=6uCpk9qYfkvVqHSz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
+5. GitHub repository \- [link](https://github.com/kirasanford/UI-UX-Designer-Pizza-Exercise)
+
 ## **Research & Insight Document**
+
 **The purpose of this research is to find the best way to design a pizza management application based on the provided user stories.**    
    1. Assumptions  
       1. The user stories do not mention customers meaning this is an internal application used to plan signature pizzas.   
@@ -55,14 +64,10 @@
 
 ## **Wireframes & User Flows**
 
-8. Wireframes  
-   1. See images folder
-
-9. User Flows 
-
-**User flow for Pizza Maker \- [link](https://www.figma.com/board/icw1GdLVbjZvev12LpKOqu/Pizza-User-Flow?node-id=0-1&t=A8xXClvtcR5f8skt-1)** 
-
-**User flow for Pizza List \- [link](https://www.figma.com/board/Z4Y0h2oY8RjbItzSFQ45g2/Pizza-List-User-Flow?node-id=0-1&node-type=canvas&t=srI0rcYZUcsWsfGE-0)**
+8. Wireframes \- [link](https://github.com/kirasanford/UI-UX-Designer-Pizza-Exercise/tree/main/Images)
+9. User Flows
+   1. **User flow for Pizza Maker \- [link](https://www.figma.com/board/icw1GdLVbjZvev12LpKOqu/Pizza-User-Flow?node-id=0-1&t=A8xXClvtcR5f8skt-1)**
+   11. **User flow for Pizza List \- [link](https://www.figma.com/board/Z4Y0h2oY8RjbItzSFQ45g2/Pizza-List-User-Flow?node-id=0-1&node-type=canvas&t=srI0rcYZUcsWsfGE-0)**
 
 ## **Prototyping**
 
