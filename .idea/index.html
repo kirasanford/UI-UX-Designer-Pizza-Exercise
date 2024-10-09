@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1> Pizza Builder</h1>
+    <div class="flex-container">
+        <div class="customization">
+            <form id="pizzaForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" onchange="updatePizzaPreview()" value="" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sauce">Sauce:</label>
+                    <select id="sauce" name="sauce" onchange="updatePizzaPreview()">
+                        <option value="tomato" selected>Tomato</option>
+                        <option value="bbq">BBQ</option>
+                        <option value="alfredo">Alfredo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Cheese Type:</label>
+                    <div class="cheese-options">
+                        <div class="cheese topping">
+                            <input type="checkbox" value="mozzarella" onchange="updatePizzaPreview()" checked>
+                            <label>Mozzarella</label>
+                        </div>
+                        <div class="cheese topping">
+                            <input type="checkbox" value="cheddar" onchange="updatePizzaPreview()">
+                            <label>Cheddar</label>
+                        </div>
+                        <div class="cheese topping">
+                            <input type="checkbox" value="parmesan" onchange="updatePizzaPreview()">
+                            <label>Parmesan</label>
+                        </div>
+                        <div class="cheese topping">
+                            <input type="checkbox" value="vegan" onchange="updatePizzaPreview()">
+                            <label>Vegan</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Toppings:</label>
+                    <div class="toppings-options">
+                        <div class="topping">
+                            <input type="checkbox" value="bacon" onchange="updateToppings()"> Bacon
+                        </div>
+                        <div class="topping">
+                            <input type="checkbox" value="mushrooms" onchange="updateToppings()"> Mushrooms
+                        </div>
+                        <div class="topping">
+                            <input type="checkbox" value="pepperoni" onchange="updateToppings()"> Pepperoni
+                        </div>
+                        <div class="topping">
+                            <input type="checkbox" value="olives" onchange="updateToppings()"> Olives
+                        </div>
+                        <div class="topping">
+                            <input type="checkbox" value="sausage" onchange="updateToppings()"> Sausage
+                        </div>
+                        <div class="topping">
+                            <input type="checkbox" value="onions" onchange="updateToppings()"> Onions
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Special Notes:</label>
+                    <input type="text" id="notes" name="notes" onchange="updatePizzaPreview()" value="">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="pizza-preview" id="pizzaPreview">
+            <div class="pizza">
+                <div class="crust" id="crustPreview"></div>
+                <div class="sauce" id="saucePreview"></div>
+                <div class="cheese" id="cheesePreview"></div>
+                <div class="toppings" id="toppingsPreview"></div>
+            </div>
+
+            <br>
+            <div class="customizations-summary" id="customizationsSummary">
+                <p id="summaryText"></p>
+            </div>
+            <br>
+
+            <button type="button" class="btn" onclick="submitOrder()">Save</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
